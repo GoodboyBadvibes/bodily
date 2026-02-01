@@ -70,7 +70,9 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
+        </div>
+
+{/* Newsletter */}
           <div>
             <h4 className="text-white font-semibold mb-4">Stay Updated</h4>
             <form className="flex">
@@ -87,7 +89,7 @@ export default function Footer() {
               </button>
             </form>
           </div>
-        </div>
+
 
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
