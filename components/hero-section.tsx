@@ -62,7 +62,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
         {/* Main Heading */}
-        <div className="max-w-5xl text-center mb-8 mt-52 sm:mt-0">
+        <div className="max-w-5xl text-center mb-8 mt-52 md:mt-0">
           <h1
             className={`text-6xl md:text-8xl lg:text-9xl font-black text-white mb-4 leading-none transition-all duration-1000 ease-out ${
               isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
